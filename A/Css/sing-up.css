@@ -1,0 +1,260 @@
+@font-face
+{
+	font-family:'Mirza-Bold';
+	src:url(Mirza-Bold.ttf);
+}
+
+body
+{
+	font-family:'Mirza-Bold';
+}
+
+/* الديف الرئيسي */
+.sing-up
+{
+	width:100%;
+	height:100vh;
+}
+/* ديف الكونتانر */
+.sing-up .container-fluid
+{
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+/* بداية ديف الرو */
+.sing-up .row
+{
+    margin-right: 0px;
+    margin-left: 0px;	
+}
+
+/* ديف الكولم الاول 
+فورمة الاسم والبريد وكلمة المرور
+*/
+.sing-up .aplecation
+{
+	width:100%;
+	height:100vh;
+	display:inline-block;
+	margin-bottom:90px;
+	position: relative;
+    left: 0;
+    top: 24%;
+}
+
+.sing-up .aplecation .name
+{
+	width:100%;
+	margin-bottom:8px;
+	display:inline-flex;
+}
+
+.sing-up .aplecation .name input
+{
+	width:45%;
+    height: 35px;
+    margin: 1px;
+    border: none;
+    background-color: #f0f0ff;
+    border-radius: 23px;
+	padding-right:20px;
+	text-align:right;
+	outline:none;
+}
+
+.sing-up .aplecation .user
+{
+	margin-bottom:8px;
+}
+
+.sing-up .aplecation .user input
+{
+	width:91%;	
+    height: 35px;
+    border: none;
+    background-color: #f0f0ff;
+    border-radius: 23px;
+	padding-right:20px;
+	text-align:right;
+	outline:none;
+}
+
+.sing-up .aplecation .step-one
+{
+	width:125px;
+    height:42px;
+    padding:5px;
+    border:none;
+	border-radius:18px;
+	font-size:19px;
+    font-weight:bold;
+    color: white;
+    background-image:linear-gradient(#b563ff , #6c63ff);
+    margin-top:30px;
+	letter-spacing:2px;
+	outline:inherit;
+	left: 45px;
+    position: absolute;
+}
+
+.sing-up .aplecation-two
+{
+	width:100%;
+	height:100vh;
+	margin-bottom:90px;
+    position: absolute;
+    left: 0;
+    right: 25%;
+    top:35%;
+	display:none;
+}
+
+.sing-up .aplecation-two .tel
+{
+    width: 272px;
+    height: 45px;
+    line-height: 46px;
+    text-align: left;
+    padding-left: 20px;
+    border-radius: 24px;
+    background-color: #f0f0ff;
+}
+
+.sing-up .aplecation-two .tel input
+{
+	width: 182px;
+    height: 30px;
+    border: none;
+    background: #f0f0ff;
+	color:#0ab5ef;
+    outline: none;
+}
+
+.sing-up .aplecation-two .tel select
+{
+	border: none;
+    background: #f0f0ff;
+    outline: none;
+	color:#0ab5ef;
+	font-size:18px;
+}
+
+.sing-up .aplecation-two .step-two
+{
+	width:125px;
+    height:42px;
+    padding:5px;
+    border:none;
+	border-radius:18px;
+	font-size:19px;
+    font-weight:bold;
+    color: white;
+    background-image:linear-gradient(#00beff , #10b0e6);
+    margin-top:30px;
+	letter-spacing:2px;
+	outline:inherit;
+	position: absolute;
+    right: 73px;
+}
+
+.sing-up .aplecation-there
+{
+	width:100%;
+	height:100vh;
+	display:inline-block;
+	margin-bottom:90px;
+    position: absolute;
+    left: 0;
+    right: 5%;
+    top:35%;
+	display:none;
+}
+
+.sing-up .aplecation-there h2
+{
+	font-size: 20px;
+    color: #c3c3c8;
+    margin-bottom: 26px;
+}
+
+.sing-up .aplecation-there .code
+{
+	
+}
+
+.sing-up .aplecation-there .code input
+{
+    width: 45px;
+    height: 30px;
+    border-radius: 3px;
+    border: none;
+    background: #f0f0ff;
+	color:#0ab5ef;
+    outline: none;
+} 
+
+.sing-up .aplecation-there .step-there
+{
+	width:125px;
+    height:42px;
+    padding:5px;
+    border:none;
+	border-radius:18px;
+	font-size:19px;
+    font-weight:bold;
+    color: white;
+    background-image:linear-gradient(#00beff , #10b0e6);
+    margin-top:30px;
+	letter-spacing:2px;
+	outline:inherit;
+}
+
+/* ديف الكولوم الثانى */
+.sing-up .images
+{
+	width:100%;
+	height:100vh;
+	text-align:center;
+	align-items:center;
+	background-image:url(../image/group.png);
+	background-size:cover;
+	background-position:center;
+}
+.sing-up .images-two
+{
+	width:100%;
+	height:100vh;
+	text-align:center;
+	align-items:center;
+	background-image:url(../image/Mobile.png);
+	background-size:cover;
+	background-position:center;
+	display:none;
+}
+
+.sing-up .images-there
+{
+	width:100%;
+	height:100vh;
+	text-align:center;
+	align-items:center;
+	background-image:url(../image/unlock.png);
+	background-size:cover;
+	background-position:center;
+	display:none;
+}
+
+/**/
+@media (max-width:767px)
+{
+
+.sing-up .col-md-7
+	{
+	display:none;
+	}
+
+
+}

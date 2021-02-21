@@ -1,0 +1,58 @@
+@font-face {
+    font-family:'Droid Arabic Kufi';
+    /*Author: Yasir Najeep */
+    src: url('../fonts/DroidArabicKufi-Bold/DroidArabicKufi-Bold.eot');
+    src: url('../fonts/DroidArabicKufi-Bold/DroidArabicKufi-Bold.woff') ,
+            url('../fonts/DroidArabicKufi-Bold/DroidArabicKufi-Bold.svg') ,
+            url('../fonts/DroidArabicKufi-Bold/DroidArabicKufi-Bold.ttf'),
+            url('../fonts/DroidArabicKufi-Bold/DroidArabicKufi-Bold.otf') ,
+            url('../fonts/DroidArabicKufi-Bold//DroidKufi-Bold.ttf') ;
+
+}
+
+@font-face {
+    font-family:'GE SS_Two_Light';
+    /*Author: Yasir Najeep */
+    src: url('../fonts/GE SS_Two_Light/GESSTwoLight-Light.eot');
+    src: url('../fonts/GE SS_Two_Light/GESSTwoLight-Light.woff') ,
+            url('../fonts/GE SS_Two_Light/GESSTwoLight-Light.svg') ,
+            url('../fonts/GE SS_Two_Light/GESSTwoLight-Light.ttf'),
+            url('../fonts/GE SS_Two_Light/GESSTwoLight-Light.otf') ,
+            url('../fonts/GE SS_Two_Light/GESSTwoLight-Light.ttf') ;
+
+}
+
+@font-face {
+  font-family: 'Droid_Regular';
+    /*Author: Yasir Najeep */
+  src: url('../fonts/DroidNaskh-Regular/DroidNaskh-Regular.eot);
+  src: url('../fonts/DroidNaskh-Regular/DroidNaskh-Regular.eot),
+       url('../fonts/DroidNaskh-Regular/DroidNaskh-Regular.woff2),
+       url('../fonts/DroidNaskh-Regular/DroidNaskh-Regular.woff),
+       url('../fonts/DroidNaskh-Regular/DroidNaskh-Regular.ttf);
+}
+
+@font-face {
+    font-family:'DroidNaskh-Bold';
+    /*Author: Yasir Najeep */
+    src: url('../fonts/DroidNaskh-Bold/DroidArabicNaskh-Bold.eot');
+    src: url('../fonts/DroidNaskh-Bold/DroidArabicNaskh-Bold.woff') ,
+            url('../fonts/DroidNaskh-Bold/DroidArabicNaskh-Bold.svg'),
+            url('../fonts/DroidNaskh-Bold/DroidArabicNaskh-Bold.ttf'),
+            url('../fonts/DroidNaskh-Bold/DroidArabicNaskh-Bold.otf'),
+            url('../fonts/DroidNaskh-Bold/DroidArabicNaskh-Bold.ttf') ;
+
+}
+
+@font-face {
+  font-family: 'GESSTwoMedium-Medium';
+  src: url('../fonts/GESSTwoMedium-Medium/GESSTwoMedium-Medium.eot');
+  src: url('../fonts/GESSTwoMedium-Medium/GESSTwoMedium-Medium.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/GESSTwoMedium-Medium/GESSTwoMedium-Medium.woff2') format('woff2'),
+       url('../fonts/GESSTwoMedium-Medium/GESSTwoMedium-Medium.woff') format('woff'),
+       url('../fonts/GESSTwoMedium-Medium/GESSTwoMedium-Medium.ttf') format('truetype'),
+       url('../fonts/GESSTwoMedium-Medium/GESSTwoMedium-Medium.svg#GESSTwoMedium-Medium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
